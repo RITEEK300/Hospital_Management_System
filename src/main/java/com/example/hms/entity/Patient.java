@@ -29,7 +29,7 @@ public class Patient {
     @NotNull(message = "Birth date is required")
     private LocalDate birthDate;
 
-    @NotNull(message = "Age is required")
+    @NotNull(message = "Age is required ")
     private Integer age;
 
     @NotBlank(message = "Gender is required")
